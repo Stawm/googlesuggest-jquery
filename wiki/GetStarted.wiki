@@ -1,6 +1,9 @@
 #labels Featured
 Since this plugin builds on top of [http://jqueryui.com/demos/autocomplete/ jQueryUI's autocomplete] widget, pretty much all of autocomplete's options/events are applies to it as well, with the exception of `source`. Google Suggest for jQuery itself has 2 options: service and secure.
 
+==Demo:==
+[http://googlesuggest-jquery.googlecode.com/svn/trunk/demo.html Simple demo].
+
 ==Options:==
 || option || type || default || note ||
 || service || string || "" || It's used to specify what Google service to query against. It can be "youtube", "products", "books", "news", or "" (empty string). By default it queries Google's web auto sugggestions. ||
@@ -27,6 +30,3 @@ Example:
 {{{
 $("selector").autocomplete("option", "disable");
 }}}
-
-==Demo:==
-[http://googlesuggest-jquery.googlecode.com/svn/trunk/demo.html Simple demo].
