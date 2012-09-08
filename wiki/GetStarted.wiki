@@ -1,7 +1,7 @@
 #labels Featured
 Since this plugin builds on top of [http://jqueryui.com/demos/autocomplete/ jQueryUI's autocomplete] widget, pretty much all of autocomplete's options/events are applies to it as well, with the exception of `source`. Google Suggest for jQuery itself has 2 options: service and secure.
 
-If you haven't already, [http://googlesuggest-jquery.googlecode.com/svn/trunk/ go download the plugin]. There are two flavors, full and minified versions. The minified version is minified by Google's Closure Compiler. It depends on [http://jqueryui.com jQueryUI] which depends on [http://jquery.com jQuery], so you will need both of them.
+If you haven't already, [http://googlesuggest-jquery.googlecode.com/svn/trunk/ go download the plugin]. It depends on [http://jqueryui.com jQueryUI] which depends on [http://jquery.com jQuery], so you will need both of them.
 
 ==Demo:==
 [http://googlesuggest-jquery.googlecode.com/svn/trunk/demo.html Simple demo].
