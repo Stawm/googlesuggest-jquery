@@ -11,7 +11,7 @@ $.fn.googleSuggest = function(opts){
     news: { client: 'news-cc', ds: 'n' },
     images: { client: 'img', ds: 'i' },
     web: { client: 'psy', ds: '' },
-    recipe: { client: 'psy', ds: 'r' }
+    recipes: { client: 'psy', ds: 'r' }
   }, service = services[opts.service];
 
   opts.source = function(request, response){
