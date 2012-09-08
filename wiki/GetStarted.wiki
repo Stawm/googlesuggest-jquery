@@ -8,7 +8,7 @@ If you haven't already, [http://googlesuggest-jquery.googlecode.com/svn/trunk/ g
 
 ==Options:==
 || option || type || default || note ||
-|| service || string || "" || It's used to specify what Google service to query against. It can be "youtube", "products", "books", "news", or "" (empty string). By default it queries Google's web auto sugggestions. ||
+|| service || string || "" || It's used to specify what Google service to query against. It can be "web", "youtube", "products", "books", "news", "images", "recipes", or "" (empty string). By default it queries Google's web auto suggestions (the "web" option). ||
 || secure || boolean || false || It's used to specify whether to use HTTPS or not. By default it doesn't use secure connection. ||
 
 Example: 
