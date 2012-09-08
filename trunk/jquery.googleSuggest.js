@@ -10,7 +10,8 @@ $.fn.googleSuggest = function(opts){
     products: { client: 'products-cc', ds: 'sh' },
     news: { client: 'news-cc', ds: 'n' },
     images: { client: 'img', ds: 'i' },
-    web: { client: 'psy', ds: '' }
+    web: { client: 'psy', ds: '' },
+    recipe: { client: 'psy', ds: 'r' }
   }, service = services[opts.service];
 
   opts.source = function(request, response){
